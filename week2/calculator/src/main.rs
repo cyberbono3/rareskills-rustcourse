@@ -35,4 +35,9 @@ fn main() {
 
     let xor_result = calc1.bitxor(calc2);
     println!("Xor: {:?}", xor_result);
+
+    let calc = Calculator::new(5, 10 );
+
+    // Print all operation results for the given input
+    print_output(calc);
 }
